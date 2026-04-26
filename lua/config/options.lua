@@ -3,3 +3,5 @@
 -- Add any additional options here
 --
 vim.opt.relativenumber = false
+vim.g.lazyvim_prettier_needs_config = true
+vim.g.neo_tree_filesystem_position = "none"
