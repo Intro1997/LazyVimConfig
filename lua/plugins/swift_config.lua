@@ -1,4 +1,6 @@
 return {
-  "keith/swift.vim",
-  ft = "swift",
+  {
+    "keith/swift.vim",
+    ft = "swift",
+  },
 }
