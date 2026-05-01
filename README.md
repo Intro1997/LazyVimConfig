@@ -10,4 +10,6 @@ Run the command `git clone https://github.com/Intro1997/LazyVimConfig.git ~/.con
 ## macOS / Linux
 1. [lazygit](https://github.com/jesseduffield/lazygit): Depended by [lazygit.vim](https://github.com/kdheepak/lazygit.nvim) 
 
-
+## Key Map in Terminal App
+- macOS:
+    1. remap `Option` key as `Esc+`
