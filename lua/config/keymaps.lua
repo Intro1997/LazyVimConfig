@@ -7,3 +7,4 @@
 -- setting will replace d with _d, which destroy
 -- content register
 vim.keymap.set({ "n", "v" }, "d", '"_d')
+require("mini.move").setup({})
