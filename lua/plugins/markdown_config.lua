@@ -7,7 +7,6 @@ return {
       table.insert(opts.ensure_installed, "prettier")
     end,
   },
-
   -- 2. 配置 Conform 强制运行 Prettier
   {
     "stevearc/conform.nvim",
@@ -27,7 +26,6 @@ return {
       opts.formatters_by_ft["markdown.mdx"] = { "prettier", "markdown-toc" }
     end,
   },
-
   -- 3. 禁用不需要的 linter
   {
     "mfussenegger/nvim-lint",

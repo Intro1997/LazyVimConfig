@@ -1,0 +1,26 @@
+return {
+  -- 1. 确保 qml 文件的 filetype 正确识别
+  -- {
+  --   "nvim-treesitter/nvim-treesitter",
+  --   opts = function(_, opts)
+  --     if type(opts.ensure_installed) == "table" then
+  --       vim.list_extend(opts.ensure_installed, { "qmljs" })
+  --     end
+  --   end,
+  -- },
+  --
+  -- -- 2. 配置 conform.nvim 格式化器
+  -- {
+  --   "stevearc/conform.nvim",
+  --   optional = true,
+  --   opts = {
+  --     formatters_by_ft = {
+  --       qml = { "qmlformat" },
+  --       qmljs = { "qmlformat" },
+  --     },
+  --     formatters = {
+  --       qmlformat = { "qmlformat", "-i" }, -- -i 代表 inplace 直接修改源文件
+  --     },
+  --   },
+  -- },
+}
