@@ -1,7 +1,7 @@
 return {
   -- 1. 确保 Mason 安装了 prettier
   {
-    "williamboman/mason.nvim",
+    "mason-org/mason.nvim",
     opts = function(_, opts)
       opts.ensure_installed = opts.ensure_installed or {}
       table.insert(opts.ensure_installed, "prettier")
